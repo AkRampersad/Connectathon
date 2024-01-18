@@ -1,0 +1,296 @@
+{
+	"Procedure": {
+		"id": {
+			"_value": "PGXGenomicStudyAnalysis"
+		},
+		"meta": {
+			"versionId": {
+				"_value": "1"
+			},
+			"lastUpdated": {
+				"_value": "2024-01-15T22:34:14.000+00:00"
+			},
+			"source": {
+				"_value": "#ZB1cqpQhXPQLF8hv"
+			},
+			"profile": {
+				"_value": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis"
+			}
+		},
+		"text": {
+			"status": {
+				"_value": "extensions"
+			},
+			"div": {
+				"p": [
+					{
+						"b": "Generated Narrative: Procedure",
+						"a": {
+							"_name": "PGXGenomicStudyAnalysis"
+						}
+					},
+					{
+						"b": "Genomic Study Analysis Genome Build",
+						"span": {
+							"a": {
+								"_href": "https://loinc.org/",
+								"__text": "LOINC"
+							},
+							"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+							"__text": "(\n               \n#LA26806-2)"
+						},
+						"__text": ": GRCh38"
+					},
+					{
+						"b": "status",
+						"__text": ": completed"
+					},
+					{
+						"b": "category",
+						"span": {
+							"a": {
+								"_href": "http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html",
+								"__text": "Observation Category Codes"
+							},
+							"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+							"__text": "(\n               \n#laboratory)"
+						},
+						"__text": ": Laboratory"
+					},
+					{
+						"b": "subject",
+						"a": {
+							"_href": "Patient-CGPatientExample01.html",
+							"__text": "Patient/CGPatientExample01"
+						},
+						"__text": ": \n            \n \" EVERYMAN\""
+					},
+					{
+						"b": "performed",
+						"__text": ": 2021-01-01 01:01:10-0600"
+					}
+				],
+				"div": {
+					"p": [
+						{
+							"_style": "margin-bottom: 0px",
+							"__text": "Resource Procedure \"PGXGenomicStudyAnalysis\""
+						},
+						{
+							"a": {
+								"_href": "StructureDefinition-genomic-study-analysis.html",
+								"__text": "Genomic Study Analysis"
+							},
+							"_style": "margin-bottom: 0px",
+							"__text": "Profile:"
+						}
+					],
+					"_style": "display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"
+				},
+				"blockquote": [
+					{
+						"p": [
+							{
+								"b": "Genomic Study Analysis Metrics"
+							},
+							{
+								"b": "value",
+								"__text": ": 100"
+							}
+						],
+						"blockquote": {
+							"p": {
+								"b": "url"
+							},
+							"code": "sequencing-coverage"
+						}
+					},
+					{
+						"p": [
+							{
+								"b": "Genomic Study Analysis Regions"
+							},
+							{
+								"b": "value",
+								"__text": ": protein-coding and exon-splicing regions"
+							},
+							{
+								"b": "value",
+								"span": {
+									"a": {
+										"_href": "http://terminology.hl7.org/5.3.0/CodeSystem-v3-hgnc.html",
+										"__text": "HUGO Gene Nomenclature Committee Genes"
+									},
+									"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+									"__text": "(\n                  \n#HGNC:2621)"
+								},
+								"__text": ": CYP2C19"
+							},
+							{
+								"b": "value",
+								"span": {
+									"a": {
+										"_href": "http://terminology.hl7.org/5.3.0/CodeSystem-v3-hgnc.html",
+										"__text": "HUGO Gene Nomenclature Committee Genes"
+									},
+									"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+									"__text": "(\n                  \n#HGNC:2623)"
+								},
+								"__text": ": CYP2C9"
+							},
+							{
+								"b": "value",
+								"span": {
+									"a": {
+										"_href": "http://terminology.hl7.org/5.3.0/CodeSystem-v3-hgnc.html",
+										"__text": "HUGO Gene Nomenclature Committee Genes"
+									},
+									"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+									"__text": "(\n                  \n#HGNC:23663)"
+								},
+								"__text": ": VKORC1"
+							}
+						],
+						"blockquote": [
+							{
+								"p": {
+									"b": "url"
+								},
+								"code": "description"
+							},
+							{
+								"p": {
+									"b": "url"
+								},
+								"code": "studied"
+							},
+							{
+								"p": {
+									"b": "url"
+								},
+								"code": "studied"
+							},
+							{
+								"p": {
+									"b": "url"
+								},
+								"code": "studied"
+							}
+						]
+					}
+				],
+				"_xmlns": "http://www.w3.org/1999/xhtml"
+			}
+		},
+		"extension": [
+			{
+				"valueCodeableConcept": {
+					"coding": {
+						"system": {
+							"_value": "http://loinc.org"
+						},
+						"code": {
+							"_value": "LA26806-2"
+						},
+						"display": {
+							"_value": "GRCh38"
+						}
+					}
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-genome-build"
+			},
+			{
+				"extension": {
+					"valueQuantity": {
+						"value": {
+							"_value": "100"
+						}
+					},
+					"_url": "sequencing-coverage"
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-metrics"
+			},
+			{
+				"extension": [
+					{
+						"valueString": {
+							"_value": "protein-coding and exon-splicing regions"
+						},
+						"_url": "description"
+					},
+					{
+						"valueCodeableConcept": {
+							"coding": {
+								"system": {
+									"_value": "http://www.genenames.org"
+								},
+								"code": {
+									"_value": "HGNC:2621"
+								},
+								"display": {
+									"_value": "CYP2C19"
+								}
+							}
+						},
+						"_url": "studied"
+					},
+					{
+						"valueCodeableConcept": {
+							"coding": {
+								"system": {
+									"_value": "http://www.genenames.org"
+								},
+								"code": {
+									"_value": "HGNC:2623"
+								},
+								"display": {
+									"_value": "CYP2C9"
+								}
+							}
+						},
+						"_url": "studied"
+					},
+					{
+						"valueCodeableConcept": {
+							"coding": {
+								"system": {
+									"_value": "http://www.genenames.org"
+								},
+								"code": {
+									"_value": "HGNC:23663"
+								},
+								"display": {
+									"_value": "VKORC1"
+								}
+							}
+						},
+						"_url": "studied"
+					}
+				],
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-regions"
+			}
+		],
+		"status": {
+			"_value": "completed"
+		},
+		"category": {
+			"coding": {
+				"system": {
+					"_value": "http://terminology.hl7.org/CodeSystem/observation-category"
+				},
+				"code": {
+					"_value": "laboratory"
+				}
+			}
+		},
+		"subject": {
+			"reference": {
+				"_value": "Patient/CGPatientExample01"
+			}
+		},
+		"performedDateTime": {
+			"_value": "2021-01-01T01:01:10-06:00"
+		},
+		"_xmlns": "http://hl7.org/fhir"
+	}
+}

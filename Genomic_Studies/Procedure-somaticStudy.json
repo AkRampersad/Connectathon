@@ -1,0 +1,47 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "somaticStudy",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"somaticStudy\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;somaticStudy&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-genomic-study.html\">Genomic Study</a></p></div><p><b>Genomic Study Analysis Extension</b>: <a href=\"Procedure-analysisTumorNormalDNA.html\">Procedure/analysisTumorNormalDNA</a></p><p><b>Genomic Study Analysis Extension</b>: <a href=\"Procedure-analysisTumorRNA.html\">Procedure/analysisTumorRNA</a></p><p><b>status</b>: completed</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: My Test Cancer 700 Gene Panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-somaticPatient.html\">Patient/somaticPatient</a> &quot; HAMSBURG&quot;</p><p><b>performed</b>: 2023-02-02</p><p><b>reasonCode</b>: Adenocarcinoma of lung, stage IV (disorder) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#424993006)</span></p><p><b>note</b>: I. Assay Overview: The Genomic Cancer Testing Assay is a comprehensive molecular examination designed to detect and quantify specific DNA and RNA alterations associated with malignancies. The test incorporates Next Generation Sequencing (NGS) technology to profile tumor samples, providing insights into the genomic alterations that drive tumor behavior and prognosis. II. Target Genes and Biomarkers: This assay evaluates an extensive panel of cancer-related genes, focusing on mutations, copy number variations, fusions, and select RNA expression levels known to be relevant in the oncology field. The analyzed genes are implicated in various cancer types and have established therapeutic, diagnostic, prognostic, or predictive relevance. Genes tested: ABL1, ATK1, ALK, APC, etc. III. Methodology: Sample Type: Formalin-fixed, paraffin-embedded (FFPE) tumor tissue. Sequencing Platform: Illumina-based NGS technology. Library Preparation: Amplification of specific target regions within the genes of interest. Bioinformatics Analysis: Employing advanced algorithms and databases to annotate and interpret the detected variants' clinical significance. IV. Assay Performance: Sensitivity: Detects variants with a mutant allele frequency (MAF) as low as 5%. Specificity: &gt;99% for single nucleotide variants (SNVs) and indels. Reportable Range: Identification and quantification of SNVs, indels, fusions, amplifications, and RNA expression levels of specific genes. V. Clinical Interpretation: The report offers a concise clinical interpretation of identified genomic alterations, linking the detected variants to FDA-approved therapies, clinical trials, or the patient's potential response to specific treatments. VI. Limitations: The assay might not detect alterations present at low levels or in regions not covered by the test. Variants may be present in genes not included in the panel. The test does not assess epigenetic changes, like methylation status. False negatives and false positives, although rare, may occur due to the technical limitations of the methodology employed. VII. Quality Assurance: The laboratory follows CAP/CLIA guidelines, ensuring stringent quality control and assurance practices at each step, from sample reception to result reporting. VIII. Result Delivery: Results are delivered within 10-14 working days from the sample receipt. The report outlines detected genomic alterations, their clinical implications, and potential therapeutic options. IX. Contact: For further clarification or questions regarding the results, healthcare providers are encouraged to contact our molecular pathology board-certified experts.</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-ext",
+    "valueReference" : {
+      "reference" : "Procedure/analysisTumorNormalDNA"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-ext",
+    "valueReference" : {
+      "reference" : "Procedure/analysisTumorRNA"
+    }
+  }],
+  "status" : "completed",
+  "category" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory"
+    }]
+  },
+  "code" : {
+    "text" : "My Test Cancer 700 Gene Panel"
+  },
+  "subject" : {
+    "reference" : "Patient/somaticPatient"
+  },
+  "performedDateTime" : "2023-02-02",
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "424993006",
+      "display" : "Adenocarcinoma of lung, stage IV (disorder)"
+    }]
+  }],
+  "note" : [{
+    "text" : "I. Assay Overview: The Genomic Cancer Testing Assay is a comprehensive molecular examination designed to detect and quantify specific DNA and RNA alterations associated with malignancies. The test incorporates Next Generation Sequencing (NGS) technology to profile tumor samples, providing insights into the genomic alterations that drive tumor behavior and prognosis. II. Target Genes and Biomarkers: This assay evaluates an extensive panel of cancer-related genes, focusing on mutations, copy number variations, fusions, and select RNA expression levels known to be relevant in the oncology field. The analyzed genes are implicated in various cancer types and have established therapeutic, diagnostic, prognostic, or predictive relevance. Genes tested: ABL1, ATK1, ALK, APC, etc. III. Methodology: Sample Type: Formalin-fixed, paraffin-embedded (FFPE) tumor tissue. Sequencing Platform: Illumina-based NGS technology. Library Preparation: Amplification of specific target regions within the genes of interest. Bioinformatics Analysis: Employing advanced algorithms and databases to annotate and interpret the detected variants' clinical significance. IV. Assay Performance: Sensitivity: Detects variants with a mutant allele frequency (MAF) as low as 5%. Specificity: >99% for single nucleotide variants (SNVs) and indels. Reportable Range: Identification and quantification of SNVs, indels, fusions, amplifications, and RNA expression levels of specific genes. V. Clinical Interpretation: The report offers a concise clinical interpretation of identified genomic alterations, linking the detected variants to FDA-approved therapies, clinical trials, or the patient's potential response to specific treatments. VI. Limitations: The assay might not detect alterations present at low levels or in regions not covered by the test. Variants may be present in genes not included in the panel. The test does not assess epigenetic changes, like methylation status. False negatives and false positives, although rare, may occur due to the technical limitations of the methodology employed. VII. Quality Assurance: The laboratory follows CAP/CLIA guidelines, ensuring stringent quality control and assurance practices at each step, from sample reception to result reporting. VIII. Result Delivery: Results are delivered within 10-14 working days from the sample receipt. The report outlines detected genomic alterations, their clinical implications, and potential therapeutic options. IX. Contact: For further clarification or questions regarding the results, healthcare providers are encouraged to contact our molecular pathology board-certified experts."
+  }]
+}

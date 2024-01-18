@@ -1,0 +1,37 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "PGXGenomicStudy",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"PGXGenomicStudy\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;PGXGenomicStudy&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-genomic-study.html\">Genomic Study</a></p></div><p><b>Genomic Study Analysis Extension</b>: <a href=\"Procedure-PGXGenomicStudyAnalysis.html\">Procedure/PGXGenomicStudyAnalysis</a></p><p><b>basedOn</b>: <a href=\"ServiceRequest-eMERGEServiceRequest.html\">ServiceRequest/eMERGEServiceRequest</a></p><p><b>status</b>: completed</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: PGX sequencing panel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-CGPatientExample01.html\">Patient/CGPatientExample01</a> &quot; EVERYMAN&quot;</p><p><b>performed</b>: 2021-01-01</p><p><b>note</b>: For technical reasons, PIK3CB was deemed uncallable.</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-ext",
+    "valueReference" : {
+      "reference" : "Procedure/PGXGenomicStudyAnalysis"
+    }
+  }],
+  "basedOn" : [{
+    "reference" : "ServiceRequest/eMERGEServiceRequest"
+  }],
+  "status" : "completed",
+  "category" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory"
+    }]
+  },
+  "code" : {
+    "text" : "PGX sequencing panel"
+  },
+  "subject" : {
+    "reference" : "Patient/CGPatientExample01"
+  },
+  "performedDateTime" : "2021-01-01",
+  "note" : [{
+    "text" : "For technical reasons, PIK3CB was deemed uncallable."
+  }]
+}

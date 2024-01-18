@@ -1,0 +1,147 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "analysisTumorNormalDNA",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"analysisTumorNormalDNA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;analysisTumorNormalDNA&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-genomic-study-analysis.html\">Genomic Study Analysis</a></p></div><blockquote><p><b>Genomic Study Analysis Regions</b></p><blockquote><p><b>url</b></p><code>studied</code></blockquote><p><b>value</b>: <a href=\"DocumentReference-WES-FullSequencedRegion-GRCh38.html\">DocumentReference/WES-FullSequencedRegion-GRCh38</a></p><blockquote><p><b>url</b></p><code>uncalled</code></blockquote><p><b>value</b>: <a href=\"DocumentReference-WES-UncallableRegions-GRCh38.html\">DocumentReference/WES-UncallableRegions-GRCh38</a></p></blockquote><p><b>Genomic Study Analysis Method Type</b>: Sequence analysis of the entire coding region <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-genomic-study-method-type-cs.html\">Genomic Study Method Type CodeSystem</a>#sequence-analysis-of-the-entire-coding-region)</span></p><p><b>Genomic Study Analysis Method Type</b>: Deletion/duplication analysis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-genomic-study-method-type-cs.html\">Genomic Study Method Type CodeSystem</a>#deletion-duplication-analysis)</span></p><p><b>Genomic Study Analysis Change Type</b>: SNV <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (sequenceontology.org#SO:0001483)</span></p><p><b>Genomic Study Analysis Change Type</b>: MNV <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (sequenceontology.org#SO:0002007)</span></p><p><b>Genomic Study Analysis Change Type</b>: delins <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (sequenceontology.org#SO:1000032)</span></p><p><b>Genomic Study Analysis Change Type</b>: CNV <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (sequenceontology.org#SO:0001019)</span></p><p><b>Genomic Study Analysis Genome Build</b>: GRCh38 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA26806-2)</span></p><p><b>Genomic Study Analysis Specimen</b>: <a href=\"Specimen-tumorSpecimen.html\">Specimen/tumorSpecimen</a></p><p><b>Genomic Study Analysis Specimen</b>: <a href=\"Specimen-normalSpecimen.html\">Specimen/normalSpecimen</a></p><p><b>Genomic Study Analysis Focus</b>: <a href=\"Patient-somaticPatient.html\">Patient/somaticPatient</a> &quot; HAMSBURG&quot;</p><blockquote><p><b>Genomic Study Analysis Output</b></p><blockquote><p><b>url</b></p><code>type</code></blockquote><p><b>value</b>: VCF <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-genomic-study-data-format-cs.html\">Genomic Study Data Format CodeSystem</a>#vcf)</span></p><blockquote><p><b>url</b></p><code>file</code></blockquote><p><b>value</b>: <a href=\"DocumentReference-somaticVCFfile.html\">DocumentReference/somaticVCFfile</a></p></blockquote><p><b>status</b>: completed</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>subject</b>: <a href=\"Patient-somaticPatient.html\">Patient/somaticPatient</a> &quot; HAMSBURG&quot;</p><p><b>performed</b>: 2023-02-02 01:01:10-0600</p><p><b>note</b>: For technical reasons, BCR gene was deemed uncallable.</p></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "studied",
+      "valueReference" : {
+        "reference" : "DocumentReference/WES-FullSequencedRegion-GRCh38"
+      }
+    },
+    {
+      "url" : "uncalled",
+      "valueReference" : {
+        "reference" : "DocumentReference/WES-UncallableRegions-GRCh38"
+      }
+    }],
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-regions"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-method-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genomic-study-method-type-cs",
+        "code" : "sequence-analysis-of-the-entire-coding-region",
+        "display" : "Sequence analysis of the entire coding region"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-method-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genomic-study-method-type-cs",
+        "code" : "deletion-duplication-analysis",
+        "display" : "Deletion/duplication analysis"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-change-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://sequenceontology.org",
+        "code" : "SO:0001483",
+        "display" : "SNV"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-change-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://sequenceontology.org",
+        "code" : "SO:0002007",
+        "display" : "MNV"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-change-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://sequenceontology.org",
+        "code" : "SO:1000032",
+        "display" : "delins"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-change-type",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://sequenceontology.org",
+        "code" : "SO:0001019",
+        "display" : "CNV"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-genome-build",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "LA26806-2",
+        "display" : "GRCh38"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-specimen",
+    "valueReference" : {
+      "reference" : "Specimen/tumorSpecimen"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-specimen",
+    "valueReference" : {
+      "reference" : "Specimen/normalSpecimen"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-focus",
+    "valueReference" : {
+      "reference" : "Patient/somaticPatient"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "type",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genomic-study-data-format-cs",
+          "code" : "vcf",
+          "display" : "VCF"
+        }]
+      }
+    },
+    {
+      "url" : "file",
+      "valueReference" : {
+        "reference" : "DocumentReference/somaticVCFfile"
+      }
+    }],
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-output"
+  }],
+  "status" : "completed",
+  "category" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/somaticPatient"
+  },
+  "performedDateTime" : "2023-02-02T01:01:10-06:00",
+  "note" : [{
+    "text" : "For technical reasons, BCR gene was deemed uncallable."
+  }]
+}

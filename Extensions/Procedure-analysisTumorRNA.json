@@ -1,0 +1,246 @@
+{
+	"Procedure": {
+		"id": {
+			"_value": "analysisTumorRNA"
+		},
+		"meta": {
+			"versionId": {
+				"_value": "1"
+			},
+			"lastUpdated": {
+				"_value": "2024-01-15T22:34:12.000+00:00"
+			},
+			"source": {
+				"_value": "#YtnFqY3DtKmSfaDy"
+			},
+			"profile": {
+				"_value": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis"
+			}
+		},
+		"text": {
+			"status": {
+				"_value": "extensions"
+			},
+			"div": {
+				"p": [
+					{
+						"b": "Generated Narrative: Procedure",
+						"a": {
+							"_name": "analysisTumorRNA"
+						}
+					},
+					{
+						"b": "Genomic Study Analysis Method Type",
+						"span": {
+							"a": {
+								"_href": "CodeSystem-genomic-study-method-type-cs.html",
+								"__text": "Genomic Study Method Type CodeSystem"
+							},
+							"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+							"__text": "(\n               \n#rna-analysis)"
+						},
+						"__text": ": RNA analysis"
+					},
+					{
+						"b": "Genomic Study Analysis Change Type",
+						"span": {
+							"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+							"__text": "(sequenceontology.org#SO:0001565)"
+						},
+						"__text": ": gene_fusion"
+					},
+					{
+						"b": "Genomic Study Analysis Change Type",
+						"span": {
+							"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+							"__text": "(sequenceontology.org#SO:0001576)"
+						},
+						"__text": ": transcript_variant"
+					},
+					{
+						"b": "Genomic Study Analysis Specimen",
+						"a": {
+							"_href": "Specimen-tumorSpecimen.html",
+							"__text": "Specimen/tumorSpecimen"
+						},
+						"__text": ":"
+					},
+					{
+						"b": "Genomic Study Analysis Focus",
+						"a": {
+							"_href": "Patient-somaticPatient.html",
+							"__text": "Patient/somaticPatient"
+						},
+						"__text": ": \n            \n \" HAMSBURG\""
+					},
+					{
+						"b": "status",
+						"__text": ": completed"
+					},
+					{
+						"b": "category",
+						"span": {
+							"a": {
+								"_href": "http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html",
+								"__text": "Observation Category Codes"
+							},
+							"_style": "background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki",
+							"__text": "(\n               \n#laboratory)"
+						},
+						"__text": ": Laboratory"
+					},
+					{
+						"b": "subject",
+						"a": {
+							"_href": "Patient-somaticPatient.html",
+							"__text": "Patient/somaticPatient"
+						},
+						"__text": ": \n            \n \" HAMSBURG\""
+					},
+					{
+						"b": "performed",
+						"__text": ": 2023-02-02 01:01:10-0600"
+					}
+				],
+				"div": {
+					"p": [
+						{
+							"_style": "margin-bottom: 0px",
+							"__text": "Resource Procedure \"analysisTumorRNA\""
+						},
+						{
+							"a": {
+								"_href": "StructureDefinition-genomic-study-analysis.html",
+								"__text": "Genomic Study Analysis"
+							},
+							"_style": "margin-bottom: 0px",
+							"__text": "Profile:"
+						}
+					],
+					"_style": "display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"
+				},
+				"blockquote": {
+					"p": [
+						{
+							"b": "Genomic Study Analysis Regions"
+						},
+						{
+							"b": "value",
+							"a": {
+								"_href": "DocumentReference-FullGenome-GRCh38.html",
+								"__text": "DocumentReference/FullGenome-GRCh38"
+							},
+							"__text": ":"
+						}
+					],
+					"blockquote": {
+						"p": {
+							"b": "url"
+						},
+						"code": "studied"
+					}
+				},
+				"_xmlns": "http://www.w3.org/1999/xhtml"
+			}
+		},
+		"extension": [
+			{
+				"extension": {
+					"valueReference": {
+						"reference": {
+							"_value": "DocumentReference/FullGenome-GRCh38"
+						}
+					},
+					"_url": "studied"
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-regions"
+			},
+			{
+				"valueCodeableConcept": {
+					"coding": {
+						"system": {
+							"_value": "http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/genomic-study-method-type-cs"
+						},
+						"code": {
+							"_value": "rna-analysis"
+						},
+						"display": {
+							"_value": "RNA analysis"
+						}
+					}
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-method-type"
+			},
+			{
+				"valueCodeableConcept": {
+					"coding": {
+						"system": {
+							"_value": "http://sequenceontology.org"
+						},
+						"code": {
+							"_value": "SO:0001565"
+						},
+						"display": {
+							"_value": "gene_fusion"
+						}
+					}
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-change-type"
+			},
+			{
+				"valueCodeableConcept": {
+					"coding": {
+						"system": {
+							"_value": "http://sequenceontology.org"
+						},
+						"code": {
+							"_value": "SO:0001576"
+						},
+						"display": {
+							"_value": "transcript_variant"
+						}
+					}
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-change-type"
+			},
+			{
+				"valueReference": {
+					"reference": {
+						"_value": "Specimen/tumorSpecimen"
+					}
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-specimen"
+			},
+			{
+				"valueReference": {
+					"reference": {
+						"_value": "Patient/somaticPatient"
+					}
+				},
+				"_url": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-focus"
+			}
+		],
+		"status": {
+			"_value": "completed"
+		},
+		"category": {
+			"coding": {
+				"system": {
+					"_value": "http://terminology.hl7.org/CodeSystem/observation-category"
+				},
+				"code": {
+					"_value": "laboratory"
+				}
+			}
+		},
+		"subject": {
+			"reference": {
+				"_value": "Patient/somaticPatient"
+			}
+		},
+		"performedDateTime": {
+			"_value": "2023-02-02T01:01:10-06:00"
+		},
+		"_xmlns": "http://hl7.org/fhir"
+	}
+}

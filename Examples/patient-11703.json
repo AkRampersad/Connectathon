@@ -1,0 +1,2308 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "patient-11703",
+          "identifier": [
+            {
+              "value": "12345"
+            }
+          ]
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=108911440, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=247040513, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=85400295, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=61965629, REF='T', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=7, POS=117865025, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=16, POS=28506628, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=18, POS=6837365, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=7, POS=65546799, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=28562879, REF='ATGTCGACCGGGGCGCGGGCTCCATCCGGGAAGCCGG', ALT=['-'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=7, POS=72957910, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=5, POS=70858273, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=12, POS=56113352, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=41244748, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=14, POS=58605932, REF='T', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=6, POS=17551770, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=21, POS=30439299, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=19, POS=14507159, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=25364913, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=75541933, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=3, POS=3078931, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=121209170, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=3, POS=48612826, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=2967831, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=16979594, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=59405044, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=85403921, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=64204356, REF='A', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=27225602, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=5356907, REF='T', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=31792151, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=6, POS=38830152, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=50599285, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=16, POS=67914876, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=18, POS=19154369, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=74005590, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=11, POS=108383322, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=11, POS=58920660, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=74994996, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=2, POS=286186, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=15255676, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=6, POS=54791317, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=5, POS=41934239, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=5, POS=132197631, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=3, POS=121415260, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=36486443, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=19, POS=51274646, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=19, POS=46094651, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=103267770, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=12, POS=104460047, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=16, POS=70989287, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=3, POS=57131808, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=14, POS=24652347, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=107978508, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=7605129, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=20, POS=62038378, REF='A', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=196285071, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=36663872, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=22, POS=38875700, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=86311940, REF='A', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=38955885, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=78234749, REF='A', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=3, POS=188327441, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=9, POS=131671269, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=151900419, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=2, POS=160585678, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=12, POS=116408458, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=11, POS=28135038, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=6, POS=109770913, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=149828220, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=7, POS=100646022, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=6, POS=30954351, REF='C', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=7, POS=150706129, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=205272579, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=4, POS=169589516, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=205494302, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=4, POS=129792615, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=10, POS=96022290, REF='TTAAGAGTAAACAGCAGCTATCGGACAACCAGAG', ALT=['-'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=152936894, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=22, POS=46631235, REF='GCT', ALT=['-'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=20, POS=47258785, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=12, POS=9317862, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=93616248, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=90016021, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=7, POS=140453133, REF=A, ALT=[C])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=14, POS=105302400, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=237868586, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=15, POS=77057342, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=6, POS=25776822, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=2, POS=228563717, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=11, POS=57263602, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=87242366, REF='T', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=2, POS=54874337, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=12, POS=11214632, REF='A', ALT=['-'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=9, POS=27169623, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=11, POS=77774954, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=5, POS=134785234, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=17, POS=76134257, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=51754571, REF='G', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=X, POS=74519698, REF='C', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=1, POS=216420207, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=18, POS=54424074, REF='C', ALT=['G'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=19, POS=38379723, REF='G', ALT=['T'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=8, POS=77616522, REF='G', ALT=['A'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "260385009",
+                "display": "Negative"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/patient-1"
+          },
+          "valueString": "Record(CHROM=19, POS=58489941, REF='T', ALT=['C'])"
+        },
+        "request": {
+          "method": "POST"
+        }
+      }
+    ]
+  }

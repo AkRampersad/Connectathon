@@ -1,0 +1,48 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "genomicstudy-trio2",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"genomicstudy-trio2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;genomicstudy-trio2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-genomic-study.html\">Genomic Study</a></p></div><p><b>Genomic Study Analysis Extension</b>: <a href=\"Procedure-genomicstudyanalysis-trio2.html\">Procedure/genomicstudyanalysis-trio2</a></p><p><b>Genomic Study Referrer Extension</b>: <a href=\"Practitioner-practitioner02.html\">Practitioner/practitioner02</a> &quot; DOEL&quot;</p><p><b>identifier</b>: id:\u00a0urn:uuid:1111-1111-1111-1113\u00a0(use:\u00a0TEMP)</p><p><b>status</b>: completed</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: Trio Analysis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-denovoChild.html\">Patient/denovoChild</a> &quot; DENOVO&quot;</p><p><b>performed</b>: 2023-10-01</p><p><b>asserter</b>: <a href=\"Practitioner-practitioner02.html\">Practitioner/practitioner02</a> &quot; DOEL&quot;</p><p><b>note</b>: De novo mutation study of the patient. The Prenatal Trio Whole Exome Sequencing (Prenatal Trio WES) test is ordered by a physician and must be accompanied with a consent form and detailed clinical information. In general, the test is used when prenatal imaging detects an anomaly that strongly suggests that there is an underlying genetic etiology. Prenatal Trio WES is often considered only after fetal chromosome microarray analysis has been non-diagnostic.</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-analysis-ext",
+    "valueReference" : {
+      "reference" : "Procedure/genomicstudyanalysis-trio2"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study-referrer-ext",
+    "valueReference" : {
+      "reference" : "Practitioner/practitioner02"
+    }
+  }],
+  "identifier" : [{
+    "use" : "temp",
+    "system" : "http://www.somesystemabc.net/identifiers/genomicstudies",
+    "value" : "urn:uuid:1111-1111-1111-1113"
+  }],
+  "status" : "completed",
+  "category" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory"
+    }]
+  },
+  "code" : {
+    "text" : "Trio Analysis"
+  },
+  "subject" : {
+    "reference" : "Patient/denovoChild"
+  },
+  "performedDateTime" : "2023-10-01",
+  "asserter" : {
+    "reference" : "Practitioner/practitioner02"
+  },
+  "note" : [{
+    "text" : "De novo mutation study of the patient. The Prenatal Trio Whole Exome Sequencing (Prenatal Trio WES) test is ordered by a physician and must be accompanied with a consent form and detailed clinical information. In general, the test is used when prenatal imaging detects an anomaly that strongly suggests that there is an underlying genetic etiology. Prenatal Trio WES is often considered only after fetal chromosome microarray analysis has been non-diagnostic."
+  }]
+}
